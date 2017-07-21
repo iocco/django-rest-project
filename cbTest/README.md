@@ -1,4 +1,6 @@
 
+Project developed using Django and djangorestframework, see requirements.txt to more info
+
 Based on 
 # Heroku Django Starter Template
 
