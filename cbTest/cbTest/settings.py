@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     # http://whitenoise.evans.io/en/stable/django.html#using-whitenoise-in-development
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'api',
+    
 ]
 
 MIDDLEWARE = [
@@ -76,11 +79,14 @@ WSGI_APPLICATION = 'cbTest.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd2b881pplb7p9j',
+        'USER': 'gdtyjpjtvulhpi',
+        'PASSWORD': '3dff85c09c27b76eec5d55156fb1be27c3f3390bce07d83da7f6638d7fe68870',
+        'HOST': 'ec2-23-21-220-48.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
