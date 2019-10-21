@@ -2,7 +2,7 @@ dj-database-url==0.4.1
 Django==1.11.1
 djangorestframework==3.6.3
 gunicorn==19.6.0
-httpie==0.9.9
+httpie==1.0.3
 psycopg2==2.6.2
 requests==2.18.1
 urllib3==1.21.1
